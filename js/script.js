@@ -74,7 +74,6 @@ function randomQuotes(){
     if(randomNumbers.length>5){
         randomNumbers.shift();
     }
-    console.log(randomNumbers);
     return randomNumbers[randomNumbers.length-1]
 }
 function changeQuote(){
